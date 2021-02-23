@@ -6,29 +6,29 @@ Rocketseat Next Level Week 4 - Trila Elixir.
 
 Instalacao do phoenix:
 
-  mix archive.install hex phx_new 1.5.7
+	mix archive.install hex phx_new 1.5.7
 
 Criando o projeto:
 
-  mix phx.new rocketpay --no-webpack --no-html
+	mix phx.new rocketpay --no-webpack --no-html
 
 ## Configurando o projeto
 
 Baixar dependências:
 
-  mix deps.get
+	mix deps.get
 
 Gerar configs do Credo:
 
-  mix credo gen.config
+	mix credo gen.config
 
 Iniciando o servidor local de desenvolvimento:
 
-  mix phx.server
+  	mix phx.server
 
 Para acessar a dashboard do projeto:
 
-  http://localhost:4000/dashboard
+http://localhost:4000/dashboard
 
 ## Phoenix readme
 
