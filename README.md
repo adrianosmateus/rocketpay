@@ -26,6 +26,10 @@ Iniciando o servidor local de desenvolvimento:
 
   	mix phx.server
 
+Executar a migration para gerar/testar o banco de dados:
+
+	mix ecto.setup
+
 Para acessar a dashboard do projeto:
 
 http://localhost:4000/dashboard
