@@ -22,13 +22,13 @@ Gerar configs do Credo:
 
 	mix credo gen.config
 
-Iniciando o servidor local de desenvolvimento:
-
-  	mix phx.server
-
 Executar a migration para gerar/testar o banco de dados:
 
 	mix ecto.setup
+
+Iniciando o servidor local de desenvolvimento:
+
+  	mix phx.server
 
 Para acessar a dashboard do projeto:
 
