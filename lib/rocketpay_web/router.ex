@@ -7,6 +7,9 @@ defmodule RocketpayWeb.Router do
 
   scope "/api", RocketpayWeb do
     pipe_through :api
+
+    #Definindo uma rota a receber requisicões em "/" para a controller WelcomeController, na funcão "index"
+    get "/", WelcomeController, :index
   end
 
   # Enables LiveDashboard only for development
